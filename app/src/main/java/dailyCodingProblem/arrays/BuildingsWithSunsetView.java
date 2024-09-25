@@ -13,7 +13,7 @@ public class BuildingsWithSunsetView {
         System.out.println(getBuildingsCount(arr4));
     }
 
-    private static int getBuildingsCount(int[] arr) {
+    public static int getBuildingsCount(int[] arr) {
         if (arr.length == 0) {
             return 0;
         }
